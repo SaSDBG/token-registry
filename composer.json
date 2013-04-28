@@ -1,0 +1,14 @@
+{
+    "name": "sasdbg/token-registry",
+    "description": "The central token registry",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "drak3",
+            "email": "drak3@live.de"
+        }
+    ],
+    "require": {
+
+    }
+}
