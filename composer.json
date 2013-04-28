@@ -10,5 +10,9 @@
     ],
     "require": {
 
+    },
+    
+    "autoload": {
+        "psr-0": { "SaS": ["src/", "test/src/"] }
     }
 }
