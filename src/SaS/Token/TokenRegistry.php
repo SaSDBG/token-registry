@@ -7,7 +7,7 @@ namespace SaS\Token;
  *
  * @author drak3
  */
-class TokenRegistry {
+class TokenRegistry implements TokenRegistryInterface{
   
     private $givenTokens = [];
     

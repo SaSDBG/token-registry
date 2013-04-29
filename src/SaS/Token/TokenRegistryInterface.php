@@ -9,7 +9,7 @@ namespace SaS\Token;
 interface TokenRegistryInterface {
     public function hasToken($name);
     public function getToken($name);
-    public function isToken($name);
+    public function isToken($name, $value);
 }
 
 ?>
