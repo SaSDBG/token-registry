@@ -86,6 +86,12 @@ class TokenRegistry implements TokenRegistryInterface{
         $this->givenTokens[$name] = $value; 
     }
     
+    public function setGivenTokens(array $tokens) {
+        foreach($tokens as $name => $value) {
+            $this->addToken($name, $value);
+        }
+    }
+    
     public function getGivenTokens() {
         return $this->givenTokens;
     }
